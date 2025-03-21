@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+
+
+.header-menu{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(47, 25, 190);
+    .first-bar{
+        background-color: rgb(50, 50, 179);
+        width: 100%;
+        height: 60px;
+        .contenuto-first-bar{
+            max-width: 1194px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+           
+        }
+        
+    }
+    .secondo-menu{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1194px;
+        margin: auto;
+        .first-secondo-menu{
+            margin: 10px auto;
+            width: 1194px;
+            padding: 10px;
+            align-items: center;
+            display: flex;
+            gap: 20px;
+            img{
+                width: 100px;
+                height: 100px;
+                float: left;
+                }
+            .contenitore-testo-sx-secondo-menu{
+                    .comune-di-senigallia{
+                    font-size: 40px;
+                    }
+                    .provincia-di-ancona{
+                    font-size: 20px;
+                        
+                }
+            }    
+        }
+        .contatti-secondo-menu{
+            width: 400px;
+        }
+    }
+}
+
+
